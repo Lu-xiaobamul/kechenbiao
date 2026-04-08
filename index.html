@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(245, 245, 245);
+        }
+
+        /* table tr:nth-child(1) {
+            background-color: #1a4470;
+        } */
+
+        table tr:nth-child(2),
+        tr:nth-child(3) {
+            background-color: #ffff;
+        }
+
+        table {
+            width: 410px;
+            border: transparent 0;
+            color: #fff;
+            margin: 10px auto;
+
+        }
+
+        table tr:nth-child(1) th {
+            padding: 0;
+            background-color: #317bca;
+        }
+
+        table tr:nth-child(1) .c {
+            box-shadow: 1px 0 3px #2E7CDE;
+            background-color: #3d8ae8;
+        }
+
+        th {
+            width: 45px;
+            height: 40px;
+            font-weight: 700;
+        }
+
+        td {
+            width: 50px;
+            height: 115px;
+            font-size: 14px;
+            text-align: center;
+            padding: 1px;
+        }
+
+        .yan {
+            color: rgb(154, 154, 154);
+        }
+    </style>
+</head>
+
+<body>
+
+    <table align="center" border="1" valign="middle" cellpadding="0" cellspacing="1">
+        <tr>
+            <th class="c">04月</th>
+            <th>周一06</th>
+            <th>周二07</th>
+            <th>周三 08</th>
+            <th>周四09</th>
+            <th>周五10</th>
+            <th>周六11</th>
+            <th>周日12</th>
+        </tr>
+        <tr>
+            <td class="yan">一大节01,02</td>
+            <td rowspan="2"></td>
+            <td bgcolor="#FB8386">数据结构与算法基础</td>
+            <td bgcolor="#FF88B2">web前端开发技术</td>
+            <td rowspan="2"></td>
+            <td colspan="3"></td>
+
+        </tr>
+        <tr>
+            <td class="yan">二大节05,06</td>
+            <td bgcolor="#54D7C7">数据结构与算法基础</td>
+            <td bgcolor="#FF88B2">web前端开发技术</td>
+            <td></td>
+            <td bgcolor="#FD9F9F">大学国文</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td class="yan">三大节05,06</td>
+            <td rowspan="2"></td>
+            <td bgcolor="#54D7C7">C#程序设计与应用</td>
+            <td></td>
+            <td bgcolor="#B8B0FE">体育</td>
+            <td bgcolor="#FFBB7A">数据库应用</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td class="yan">四大节07,08</td>
+            <td bgcolor="#8BD5A2">C#程序设计与应用</td>
+            <td colspan="2"></td>
+            <td bgcolor="#FFBB7A">数据库应用</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr bgcolor="#F0F9FF">
+            <td class="yan">五大节09,10</td>
+            <td colspan="7"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
